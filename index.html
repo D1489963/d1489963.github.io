@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>神秘星空運勢占卜</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="透過簡單互動，探索你今日在工作、學業、愛情與金錢面向的運勢指引！">
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <h1>✨ 星空運勢占卜 ✨</h1>
+            <p>集中精神，點擊下方按鈕，揭曉你今日的命運指引...</p>
+        </header>
+
+        <main>
+            <div id="interaction-area">
+                <div class="crystal-ball">🔮</div>
+                <button id="draw-btn" class="primary-btn">抽取我的運勢</button>
+            </div>
+
+            <div id="result-area" class="hidden">
+                <h2 id="result-title"></h2>
+                
+                <div class="result-cards">
+                    <div class="card">
+                        <h3>💼 工作</h3>
+                        <p id="result-work"></p>
+                    </div>
+                    <div class="card">
+                        <h3>📚 學業</h3>
+                        <p id="result-study"></p>
+                    </div>
+                    <div class="card">
+                        <h3>❤️ 愛情</h3>
+                        <p id="result-love"></p>
+                    </div>
+                    <div class="card">
+                        <h3>💰 金錢</h3>
+                        <p id="result-money"></p>
+                    </div>
+                </div>
+
+                <div class="quote-box">
+                    <p id="result-quote"></p>
+                </div>
+
+                <div class="action-buttons">
+                    <button id="retry-btn" class="secondary-btn">🔁 再占卜一次</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
